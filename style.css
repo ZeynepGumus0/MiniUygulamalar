@@ -1,26 +1,66 @@
-.wrapper{
-    height: 100vh;
-    display: grid;
-    place-items: center;
-    background-color: purple;
+@import url('https://fonts.googleapis.com/css?family=Bubbler+One');
+html,body{
+    font-family: 'Bubbler One', sans-serif;
+}
+body{
+    background: #e6b26f
+    url(https://st3.depositphotos.com/13662248/33424/v/450/depositphotos_334248228-stock-illustration-starry-sky-background-flat-vector.jpg)
+repeat top left;
+}
+.icerik{
+    width: 250px;
+    height: 100px;
+    background: gray;
+    font-size: 4em;
+    color: #5291aa;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -125px;
+    margin-top: -50px;
+    text-align: center;
+    line-height: 100px;
+    border-top: 3px solid #1A242B;
+    background-color: rgba(255,255,255,.7);
+    color:#1A242B;
+}
+
+p,a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 0;
+    text-align: center;
+}
+#saatbicimi{
+    display: block;
+    margin:  0 auto;
+    border: none;
+    padding: 5px;
+    background-color: rgba(255,255,255,.7);
+    border-top: 1px solid #1A242B;
+    color: #1A242B;
+    font-family: 'Bubbler One' , sans-serif;
+}
+#saatbicimi:focus{outline: 0;}
+#container{
+    width: 400px;
+    height: 200px;
+    max-height: 200px;
+    max-width: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 50%;
+    margin-left: -220px;
+    margin-top: -120px;
+    padding: 20px;
+    background-color: rgba(255,255,255,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    border: 5px solid #fff;
+    background: transparent
+    url(https://i0.wp.com/i.pinimg.com/originals/73/e8/64/73e8643ba71387597409fdc32589c279.jpg) center center;
+    background-size: cover;
+    z-index: 100;
 
 }
-.typing-demo{
-    width: 12ch;
-    animation: typing 2s steps(22),blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 10px solid;
-    font-family: monospace;
-    font-size: 2em;
-
-}
-@keyframes typing{
-    from{
-        width: 0;
-    }
-}@keyframes blink{
-    50%{
-        border-color: white;
-    }
-}
+i{cursor:pointer;}
